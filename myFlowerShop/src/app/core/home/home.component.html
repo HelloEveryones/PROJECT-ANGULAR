@@ -1,1 +1,50 @@
-<p>home works!</p>
+<div class="header">
+    <a href="/">
+        <div id="logo">
+            <img width="75" height="75" src="../../../assets/Logo2.jpg" alt="logo">
+        </div>
+    </a>
+
+    <div class="main">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars"></i>
+            </a>
+            <li><a href="/orchids">All Orchids</a></li>
+        </ul>
+    </div>
+    <div class="auth">
+        <ul>
+            <div class="dropdown">
+                <button class="dropbtn">Profile. . .</button>
+                <div class="dropdown-content">
+                    <a href="/my-orchids">My Orchids</a>
+                    <a href="/favourites-profile">My Favourite Orchids</a>
+                    <a href="/profile-info">Profile Info</a>
+                </div>
+            </div>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/register">Register</a></li>
+            <li><a id="logout" href="javascript:void(0);" onclick="logout()">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="mobile">
+        <a href="/">Home</a>
+        <a href="/orchids">All Orchids</a>
+        <a href="/add">Add Orchid</a>
+        <a href="/profile">My Orchids</a>
+        <a href="/favourites-profile">My Favourite Orchids</a>
+        <a href="/profile-info">Profile Info</a>
+    </div>
+    <div class="authorization">
+        <a href="/login">Login</a>
+        <a href="/register">Register</a>
+        <a id="logout" href="javascript:void(0);" onclick="logout()">Logout</a>
+    </div>
+    <a href="javascript:void(0);" onclick="menuClick()" class="icon">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
